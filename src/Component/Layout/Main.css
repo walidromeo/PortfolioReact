@@ -1,0 +1,169 @@
+*:focus
+{
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Main
+{
+    height: 78.7vh;
+}
+body 
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden auto;
+}
+.my
+{
+    margin-top: 12vh;
+}
+.desc
+{
+    color: #b1b0b5;
+    font-size: 17px;
+}
+.h1
+{
+    color: #4ECDC4 !important;
+    margin-top: 36px;
+}
+
+.f-v
+{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background: red;
+    border-radius: 100%;
+}
+#git 
+{
+   background: #333;
+}
+#twitter
+{
+    background: #1DA1F2;
+}
+#linkedin
+{
+    background: #0072b1 ;
+}
+#instagram
+{
+    background-color: #cd486b;
+}
+.main-btn
+{
+    padding: 10px;
+    width: 150px;
+    border-radius: 9999px;
+    border: 2px  #333 solid;
+    margin:10px auto;
+    color: #b1b0b5;
+    text-transform: capitalize;
+}
+.main-title
+{
+    position: relative;
+    color: rgba(0, 0, 0, 0.609) !important;
+    text-transform: capitalize;
+}
+.main-title::after
+{
+    position: absolute;
+    content: "";
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 3px;
+    width: 70px;
+    background-color: #cd486b;
+    border-radius: 11px;
+}
+
+
+.card-work
+{
+    text-align: center;
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: rgba( 255, 255, 255, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 60px;
+    margin-right: 19px;
+    transition: background-color 1.6s ease !important;
+}
+.card-work i 
+{
+    font-weight: bold
+}
+.card-work .h4
+{
+    margin-top: 20px;
+    text-transform: capitalize;
+    color:rgba(0, 0, 0, 0.609) !important;
+}
+.card-work p 
+{
+    color: #118ab2;
+}
+
+.spacing
+{
+    height: 10vh;
+}
+.card-work:hover 
+{
+    color: #fff !important;
+    background-color: #0072b1 !important;
+}
+.card-work:hover p 
+{
+    color: #fff;
+}
+.banner-img
+{
+    height: 310px;
+    border-radius: 5px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: transform 0.6s ease !important;
+}
+#Main .banner-img:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+   #Main
+   {
+    height: auto; 
+   }
+    .card-work
+{
+    margin-left: 32px;
+    margin-right: 17px;
+}
+  }

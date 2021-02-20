@@ -1,0 +1,17 @@
+#skills p
+{
+    color: #F7FFF7;
+    font-size: 15px;
+}
+
+
+.FaReact
+{
+    color: #F7FFF7;
+    font-size: 2.5rem;
+    transition: all 1.5 ease;
+}
+.FaReact:hover
+{
+    color: #4ECDC4;
+}

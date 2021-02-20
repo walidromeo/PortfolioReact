@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&display=swap');
+
+ body
+ {
+    position: relative;
+ }
+.list li {
+    display: inline-block;
+    padding: 9px 20px;
+}
+.list,.listActive
+{
+    background: rgba( 255, 255, 255, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    transition:0.7s all ease;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.list
+{
+    right:3000px;
+}
+.listActive
+{
+    right: 0px;
+}
+.nav ul li a 
+{
+    font-size: 2.5rem;
+    color: #F7FFF7;
+    text-decoration: none;   
+}
+.iconClose
+{
+    position: absolute;
+    right: 19px;
+    top: 7px;
+}
+.list li a 
+{
+    text-decoration: none;
+}
+.listActive li a:hover
+{
+    color: #4ECDC4 !important;
+}
+.FiMenu,.iconClose
+{
+    font-size: 3rem;
+    background-color: #4ECDC4;
+    border-radius: 50%;
+    padding: 10px;
+    color: #F7FFF7 !important;
+}
+.Toggle
+{
+    margin-right: 5%;
+}
+.brand-font,.Toggle
+{
+   margin-top: 10px;
+    margin-left: 20px; 
+}

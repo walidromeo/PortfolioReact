@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import {useEffect} from "react"
 import './App.css';
-
+import Main from "./Component/Main";
+import "font-awesome/css/font-awesome.min.css";
+import About from './Component/About';
+import Skills from './Component/Skills';
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
+import AOS from "aos"
 function App() {
+  useEffect(()=>{
+    AOS.init()
+  },[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Main}/>
+          <Route exact path="/about" component={About}></Route>
+          <Route exact path="/skills" component={Skills}></Route>
+        </Switch> 
+      </Router>
     </div>
   );
 }

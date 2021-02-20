@@ -1,0 +1,65 @@
+#about ,#skills
+{
+     height: 80.3vh;
+}
+.h1,.h2
+{
+    color: #4ECDC4 !important;
+    text-transform: capitalize;
+    font-size: 2rem !important;
+    display: block !important;
+}
+.hid
+{
+    overflow: hidden;
+}
+#about p,#skills p
+{
+    color: #F7FFF7;
+    font-size: 15px;
+}
+
+#about .img-fluid
+{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: transform 0.5s ease;
+    width: 272px !important;
+    height: 387px !important;
+}
+#about .img-fluid:hover
+{
+    transform: scale(1.05);
+}
+.descr
+{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 425px) {
+    #about,#skills
+{
+     height: 104vh;
+    overflow: hidden auto;
+}
+  }
+
+  @media screen and (max-width: 375px) {
+    #about,#skills
+{
+     height: 128vh;
+
+}
+  }
+  @media screen and (max-width: 320px) {
+    #about,#skills
+{
+     height: 137vh;
+
+}
+  }
