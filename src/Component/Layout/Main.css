@@ -7,7 +7,7 @@
 }
 #Main
 {
-    height: 78.7vh;
+    height: 80.3vh;
 }
 body 
 {
@@ -129,6 +129,21 @@ body
 {
     color: #fff;
 }
+.button-Main{
+    width: auto;
+    padding: 11px;
+    transition:  0.5s !important;
+    border: 2px  #333 solid;
+}
+.button-Main:hover{
+
+    color: white;
+    border: 2px solid white;
+    outline: white !important;
+    background: #333;
+
+}
+
 .banner-img
 {
     height: 310px;

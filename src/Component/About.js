@@ -17,7 +17,11 @@ const About = () => {
                 <div className="row">
                     <div data-aos="fade-down-right" className="col-lg-6 col-md-6 col-sm-12 col-12 align-self-center p-3">
                     <div className="h1">à propos de moi</div>
-                        <p>Je suis un développeur front-end passionné par le développement de sites Web et d'applications et de faire une grande différence dans les entreprises pour lesquelles je développe. j'adore prendre des photos, regarder le football et jouer à des jeux vidéo. Je pense que la vie est faite d'expériences, donc voyager pour rencontrer de nouvelles personnes et apprendre constamment est dans mon ADN.</p>
+                        <p>
+                        Walid Bennani, développeur full-stack à Casablanca.
+                        En tant que développeur web, je gère tous types de projets de création d'applications web et mobiles et de e-commerce.
+                        Passionné par les technologies du web, j'utilise mes compétences pour répondre aux besoins des clients dans des domaines variés.                          
+                        </p>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 col-12 p-3 hid">
                         <div data-aos="fade-up-left" className=" h-100 w-100 d-flex justify-content-center align-items-center">

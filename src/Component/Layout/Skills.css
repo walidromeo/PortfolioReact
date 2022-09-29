@@ -5,13 +5,13 @@
 }
 
 
-.FaReact
+.FaLogo
 {
     color: #F7FFF7;
     font-size: 2.5rem;
-    transition: all 1.5 ease;
+    transition: all 0.9 ease;
 }
-.FaReact:hover
+.FaLogo:hover
 {
     color: #4ECDC4;
 }
