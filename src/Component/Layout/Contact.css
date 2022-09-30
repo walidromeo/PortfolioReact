@@ -1,3 +1,110 @@
-#contact{
+#contact {
     height: 83vh;
+}
+
+.contactInput {
+
+    display: block;
+    margin: 2%;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    height: 5.5vh;
+    border: none;
+    padding: 10px;
+    background-color: #F7FFF7;
+}
+.btn-contact{
+    width: 100% !important;
+    margin:1% ;
+    background-color: #4ECDC4;
+    color: #F7FFF7; 
+    border: none;
+    font-size: 18px;
+
+}
+#contact-h1{
+    text-align: center;
+}
+#textArea {
+    height: 15vh;
+    display: block;
+    margin: 2%;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: #F7FFF7;
+}
+
+@media screen and (max-width: 425px) {
+    .btn-contact{
+        width: 100% !important;
+        margin:1% ;
+        background-color: #4ECDC4;
+        color: #F7FFF7;
+        border: none;
+        font-size: 18px;
+    }
+    #contact-h1{
+        text-align: center;
+    }
+    .contactInput,#textArea {
+        width:100%;
+    }
+
+    #contact {
+        height: 160vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .btn-contact{
+        width: 100% !important;
+        margin:1% ;
+        background-color: #4ECDC4;
+        color: #F7FFF7;
+        border: none;
+        font-size: 18px;
+
+    }
+    #contact-h1{
+        text-align: center;
+    }
+    .contactInput,#textArea {
+        width: 100%;
+    }
+
+    #contact {
+        height: 160vh;
+        width: auto;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .btn-contact{
+        width: 100% !important;
+        margin:1% ;
+        background-color: #4ECDC4;
+        color: #F7FFF7; 
+        border: none;
+        font-size: 18px;
+
+    }
+    #contact-h1{
+        text-align: center;
+    }
+    .contactInput,#textArea {
+       
+        width: 100%;
+    }
+
+    #contact {
+        height: 160vh;
+        width: auto;
+
+    }
 }

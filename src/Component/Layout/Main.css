@@ -21,7 +21,7 @@ body
 }
 .desc
 {
-    color: #b1b0b5;
+    color: #f7f7f7;
     font-size: 17px;
 }
 .h1
@@ -180,5 +180,8 @@ body
 {
     margin-left: 32px;
     margin-right: 17px;
+}
+.my{
+    margin: 5vh;
 }
   }

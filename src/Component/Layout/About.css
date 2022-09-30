@@ -42,24 +42,27 @@
 
 
 @media screen and (max-width: 425px) {
-    #about,#skills
-{
+    #about,#skills,#contact
+    {
      height: 104vh;
     overflow: hidden auto;
+    width: auto;
 }
   }
 
   @media screen and (max-width: 375px) {
-    #about,#skills
-{
+    #about,#skills,#contact
+    {
      height: 128vh;
+     width: auto;
 
 }
   }
   @media screen and (max-width: 320px) {
-    #about,#skills
+    #about,#skills,#contact
 {
      height: 137vh;
+     width: auto;
 
 }
   }

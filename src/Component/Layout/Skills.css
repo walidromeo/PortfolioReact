@@ -3,6 +3,12 @@
     color: #F7FFF7;
     font-size: 15px;
 }
+#linkLinkedin
+{
+    color: #F7FFF7;
+    font-size: 15px;
+    padding: 1px;
+}
 
 
 .FaLogo
@@ -13,5 +19,6 @@
 }
 .FaLogo:hover
 {
+    
     color: #4ECDC4;
 }

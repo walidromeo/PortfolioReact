@@ -22,7 +22,11 @@ const Skills = () => {
                         <p>« La connaissance éveille vos capacités, l'expérience enrichit vos compétences. »
                         <br />
                         3 ans d'expertise en développement de logiciels dans la programmation orientée objet, le développement d'applications d'entreprise multi-niveaux distribuées utilisant les technologies Java et J2EE avec le cycle de vie du développement logiciel.
-                        visitez mon profil Linkedin pour plus de détails ou contactez-moi simplement.</p>
+                        visitez mon profil 
+                        <a id='linkLinkedin' href='https://www.linkedin.com/in/walid-bennani-496b72197/' target="_blank" rel="noopener noreferrer">
+                        Linkedin
+                        </a>
+                         pour plus de détails ou contactez-moi simplement.</p>
                     </div>
                     <div className="col-lg-6 p-3 d-flex justify-content-center f-wrap align-self-center" data-aos="zoom-in-down">
                         <div className="row">
